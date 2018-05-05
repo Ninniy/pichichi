@@ -1398,14 +1398,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
         text-shadow: none !important;
     }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
 
     abbr[title]:after {
         content: " (" attr(title) ")";
@@ -1415,11 +1407,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
      * Don't show links for images, or javascript/internal links
      */
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
 
     pre,
     blockquote {
